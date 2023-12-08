@@ -1,0 +1,11 @@
+cabal-version:      2.4
+name:               d8
+version:            0.1.0.0
+
+executable d8
+    main-is:          Main.hs
+    build-depends:    base ^>=4.18.0.0
+                    , text
+
+    hs-source-dirs:   app
+    default-language: Haskell2010
